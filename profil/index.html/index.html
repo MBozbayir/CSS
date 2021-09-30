@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.html/style.css">
+    <title>Document</title>
+</head>
+<style>
+     *{
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+         font-family: 'Poppins',sans-serif;
+     }
+
+    body{
+        background-image: url('college.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    .profile-card{
+        width: 516;
+        margin: auto;
+        margin-top: 12px;
+        font-weight: 800;
+        margin-bottom: 12px;
+        background-color: white;
+        box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.5);
+        position: relative;
+    }
+    .image-container{
+        position: relative;
+    }
+    .image-container img{
+        width: 29%;
+        border-radius: 50%;
+        margin-top: 15px;
+        margin-left: 190px;
+        height: 152px;
+    }
+    .title{
+        position: absolute;
+        left: 200px;
+        top: 170px;
+        font-size: 17px;
+        font-weight: 700;
+        color: #292525;
+        text-shadow: #FC0 1px 0 10px;
+    }
+    .main-container{
+        padding: 32px 20px 20px;
+    }
+    .info{
+        color: black;
+        margin-right: 16px;
+        padding: 14px;
+
+    }
+    .skills{
+        background-color: green;
+        border-radius: 16px;
+        opacity: 0.45;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .bar{
+        padding: 0.05rem 12px;
+        border-radius: 16px;
+        text-align: center;
+        color: white;
+        background-color: blue;
+        opacity: 1;
+    }
+    .btn{
+        padding: 10px;
+        margin-top: 9px;
+        margin-bottom: 8px;
+        background-color: #164a40;
+        color: white;
+        width: 65px;
+        outline: none;
+        border-radius: 7px;
+        cursor: pointer;
+        margin-left: 12px;
+    }
+    .btn:hover{
+        background-color: #39524d;
+    }
+    .follow p{
+        color: black;
+        font-size: 18px;
+
+    }
+    .social-media{
+        margin-top: 12px;
+        margin-left: 12px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .fa-facebook{
+        background: #034ce6;
+        color: white;
+        border-radius: 50%;
+        padding: 12px;
+    }
+    .fa-twitter{
+        background: #0878ce;
+        color: white;
+        border-radius: 50%;
+        padding: 12px;
+    }
+    .fa-instagram{
+        background: #d0092f;
+        color: white;
+        border-radius: 50%;
+        padding: 12px;
+    }
+    .fa-youtube{
+        background: #d20606;
+        color: white;
+        border-radius: 50%;
+        padding: 12px;
+    }
+
+</style>
+<body>
+    <div class="Profil-card">
+        <img src="profile.png">
+        <div class="title">
+            <h2>Hacı Mustafa Bozbayır</h2>
+        </div>
+    </div>
+    <div class="main-container">
+        <p><i class="fa fa-university info"></i>Anadolu University</p>
+        <p><i class="fa fa-home info"></i>Eskisehir.TR</p>
+        <p><i class="fa fa-envelope info"></i>mustafa.bzbyr4606@gmail.com</p>
+        <p><i class="fa fa-phone info"></i>+41 76 253 65 69</p>
+        <hr>
+        <p><b><i class="fa fa-asterisk info"></i>Skills</b></p>
+        <p>Frontend</p>
+        <div class="skills">
+            <div class="bar" style="width:70%">70%</div>
+        </div>
+        <p>Backend</p>
+        <div class="skills">
+            <div class="bar" style="width:60%">60%</div>
+        </div>
+        <button class="btn">More</button>
+        <div class="about">
+            <img src="profile.png" alt="">
+            <h3>Hacı Mustafa Bozbayır</h3>
+            <p>hakkımda bilgi yazılacak</p>
+        <div class="follow">
+            <p>Follow Me:</p>
+        </div>
+        <div class="social-media">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+</body>
+</html>
